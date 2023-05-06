@@ -1,0 +1,15 @@
+[package]
+name = "d3st-wasm"
+version = "0.1.0"
+edition = "2021"
+
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = false # sort of broken
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+# fuzzy_dbscan = "0.3"
+thiserror = "1.0"
+wasm-bindgen = "0.2"

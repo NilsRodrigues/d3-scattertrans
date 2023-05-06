@@ -1,0 +1,36 @@
+{
+  "name": "d3-scattertrans",
+  "version": "0.0.1",
+  "description": "Animated scatterplot transitions for D3",
+  "main": "dist/index.js",
+  "scripts": {
+    "build-dev": "rollup -c",
+    "build": "cross-env NODE_ENV=production rollup -c"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/d3-ease": "^3.0.0",
+    "@types/d3-selection": "^3.0.2",
+    "@types/d3-transition": "^3.0.1",
+    "csv": "^6.0.5",
+    "d3-ease": "^3.0.1",
+    "d3-selection": "^3.0.0",
+    "d3-transition": "^3.0.1",
+    "gl-matrix": "^3.4.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "rollup-plugin-web-worker-loader": "^1.6.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@types/d3": "^7.1.0",
+    "@wasm-tool/rollup-plugin-rust": "^1.0.7",
+    "cross-env": "^7.0.3",
+    "rollup": "^2.60.0",
+    "rollup-plugin-polyfill-node": "^0.8.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.4"
+  }
+}

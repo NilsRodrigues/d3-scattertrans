@@ -1,0 +1,9 @@
+{
+  "include": ["src/**/*.ts"],
+  "compilerOptions": {
+    "lib": ["ES2019", "DOM"],
+    "target": "ES2019",
+    "strict": true,
+    "allowSyntheticDefaultImports": true
+  }
+}
