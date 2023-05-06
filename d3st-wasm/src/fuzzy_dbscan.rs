@@ -1,7 +1,14 @@
-//! This is a modified version of fuzzy_dbscan/src/lib.rs at
-//! 949bbcd5415a9021bde9fde80774e0b16b4ce6f5.
+//! This is a modified version of fuzzy_dbscan/src/lib.rs
+//! by Christoph Schulz from https://github.com/schulzch/fuzzy_dbscan
+//! at 949bbcd5415a9021bde9fde80774e0b16b4ce6f5.
 //! We can't use the library directly because it has wasm handling that we don't want.
-//! 
+//! Modifications by Vincent Brandt.
+//!
+//!
+//!
+//!
+//!
+//!
 //! An implementation of the FuzzyDBSCAN algorithm.
 //!
 //! # Example
